@@ -35,7 +35,7 @@ export const img = {
                     <img :src="value" class="im">
                 </span>
                 <span v-if="!value">
-                    <img src="/images/placeholder.png" >
+                    <img src="./images/placeholder.png" >
                 </span>
             </a>
         </div>
